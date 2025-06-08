@@ -322,7 +322,7 @@ void login(char *hostIp, int port,
 							  nullptr,
 							  "application/json",
 							  bd, 1,
-							  admin_cookies, admin_cookies.size(),
+							  user_cookies, user_cookies.size(),
 							  nullptr);
 
 	free(body);
